@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Baron Coffee Roasters — Product</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Baron Coffee Roasters Logo">
+        <div class="title">
+          <strong>BARON</strong>
+          <span>Coffee Roasters</span>
+        </div>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card pad">
+      <h2>Produk Kopi</h2>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Menu</th>
+            <th>Deskripsi Singkat</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Americano</b></td>
+            <td>Rasa clean, ringan, cocok untuk kerja.</td>
+            <td>Rp 18.000</td>
+          </tr>
+          <tr>
+            <td><b>Latte</b></td>
+            <td>Milk coffee lembut, nyaman untuk semua.</td>
+            <td>Rp 22.000</td>
+          </tr>
+          <tr>
+            <td><b>Signature Excelso</b></td>
+            <td>Blend/bean unggulan: <b>Kopi Excelso</b>.</td>
+            <td>Rp 25.000</td>
+          </tr>
+          <tr>
+            <td><b>Manual Brew</b></td>
+            <td>V60/AeroPress (opsional) untuk pecinta detail.</td>
+            <td>Rp 28.000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="actions" style="margin-top:16px">
+        <a class="btn primary" href="contact.html">Order / Reservasi</a>
+        <a class="btn" href="merchandise.html">Lihat Merchandise</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container" style="padding:0">
+        © <span id="y"></span> Baron Coffee Roasters
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

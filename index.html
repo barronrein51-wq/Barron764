@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Baron Coffee Roasters — Beranda</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Baron Coffee Roasters Logo">
+        <div class="title">
+          <strong>BARON</strong>
+          <span>Coffee Roasters</span>
+        </div>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card pad">
+        <div class="badge">☕ Roastery • Harga Bersahabat • Rasa Serius</div>
+        <h1>Kopi yang enak, untuk semua.</h1>
+        <p>
+          Baron Coffee Roasters hadir dengan gaya <b>vintage-minimalis</b> dan kualitas yang bisa dinikmati siapa saja.
+          Cocok untuk nongkrong, kerja, atau meeting santai.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="product.html">Lihat Produk</a>
+          <button class="btn" data-scroll="#medsos">Medsos & Dokumentasi</button>
+          <a class="btn" href="contact.html">Lokasi Cafe</a>
+        </div>
+
+        <div class="section">
+          <div class="kpi">
+            <div><b>Roasted</b><span>fresh & konsisten</span></div>
+            <div><b>Universal</b><span>rasa aman untuk semua</span></div>
+            <div><b>Value</b><span>kualitas mantap, harga terjangkau</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebox">
+        <div class="card mini">
+          <h2>Promo Minggu Ini</h2>
+          <p class="muted">Beli 2 minuman, diskon 10% (contoh). Ganti sesuai promo kamu.</p>
+          <a class="btn primary" href="contact.html">Pesan / Tanya Admin</a>
+        </div>
+
+        <div class="card mini">
+          <h2>Jam Operasional</h2>
+          <p><b>Setiap Hari</b>: 18.00–24.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card pad" id="medsos">
+      <h2>Medsos & Dokumentasi</h2>
+      <p class="muted">Isi sesuai instruksi: video, gambar, dokumentasi. Ini template yang rapi.</p>
+
+      <div class="media">
+        <div class="ph">
+          <div>
+            <span class="tag">Video Reels Instagram</span>
+            <p><b>Akan ditambahkan video reels di sini</b> (kalau embed tidak muncul, klik tombol di bawah).</p>
+          </div>
+
+          <!-- Instagram Reels Embed -->
+          <blockquote class="instagram-media"
+            data-instgrm-permalink="https://www.instagram.com/reel/DRHwDV0EokX/"
+            data-instgrm-version="14"
+            style="background:#fff; border:1px solid rgba(0,0,0,.08); border-radius:14px; margin:10px 0; padding:0; width:100%;">
+          </blockquote>
+
+          <a class="btn primary"
+             href="https://www.instagram.com/reel/DRHwDV0EokX/?igsh=MW9xZGlvNHhzNWxycQ=="
+             target="_blank" rel="noopener">
+            Buka Reels di Instagram
+          </a>
+        </div>
+
+        <div class="ph">
+          <div>
+            <span class="tag">Foto Dokumentasi</span>
+          </div>
+          <img src="Foto_Dokumentasi.jpg" alt="Suasana Moonbae">
+        </div>
+      </div>
+
+      <div class="section grid3">
+        <div class="card item">
+          <h3>Instagram</h3>
+          <p class="muted">@baronmoonbae </p>
+          <a class="btn" href="#" onclick="alert('Ganti link IG dulu ya!')">Buka</a>
+        </div>
+        <div class="card item">
+          <h3>TikTok</h3>
+          <p class="muted">@Gaada </p>
+          <a class="btn" href="#" onclick="alert('Ganti link TikTok dulu ya!')">Buka</a>
+        </div>
+        <div class="card item">
+          <h3>WhatsApp</h3>
+          <p class="muted">+62xxxx </p>
+          <a class="btn primary" href="contact.html">Chat Admin</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container" style="padding:0">
+        © <span id="y"></span> Baron Coffee Roasters • UAS Website • Consistent Theme
+      </div>
+    </footer>
+  </main>
+
+  <script async src="https://www.instagram.com/embed.js"></script>
+  <script src="script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Baron Coffee Roasters — About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Baron Coffee Roasters Logo">
+        <div class="title">
+          <strong>BARON</strong>
+          <span>Coffee Roasters</span>
+        </div>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="product.html">Product</a>
+        <a href="merchandise.html">Merchandise</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card pad">
+      <h2>Tentang Baron</h2>
+      <p>
+        Baron Coffee Roasters dibuat dengan karakter <b>original</b> dan tetap <b>universal</b>—siapa pun bisa menikmati.
+        Nama “Baron” punya makna kenangan yang personal, dan kami jadikan itu sebagai semangat: menghadirkan kopi yang hangat,
+        konsisten, dan punya cerita.
+      </p>
+      <div class="section grid3">
+        <div class="card item">
+          <h3>Karakter Brand</h3>
+          <p class="muted">Vintage-minimalis, rapi, mudah diingat.</p>
+        </div>
+        <div class="card item">
+          <h3>Nilai Utama</h3>
+          <p class="muted">Kualitas bagus dengan harga terjangkau.</p>
+        </div>
+        <div class="card item">
+          <h3>Target</h3>
+          <p class="muted">Universal: nongkrong, kerja, meeting santai.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card pad">
+      <h2>Kenapa memilih kami?</h2>
+      <ul>
+        <li><b>Harga & teknik</b> jadi pembeda.</li>
+        <li>Rasa dibuat konsisten untuk pelanggan baru maupun langganan.</li>
+        <li>Identitas visual jelas: kopi, biji kopi, dan nuansa vintage yang bersih.</li>
+      </ul>
+      <p class="muted">Catatan: poin di atas bisa kamu sesuaikan dengan kondisi real di lapangan.</p>
+    </section>
+
+    <footer class="footer">
+      <div class="container" style="padding:0">
+        © <span id="y"></span> Baron Coffee Roasters
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
